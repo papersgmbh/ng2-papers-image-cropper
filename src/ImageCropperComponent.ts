@@ -214,9 +214,11 @@ export class ImageCropperComponent implements AfterViewInit, OnChanges {
 
         switch (orientation) {
           case 3:
-            this.rotate(-90);
+            this.rotate(-180);
+            break;
           case 6:
             this.rotate(90);
+            break;
           case 8:
             this.rotate(-90);
         }

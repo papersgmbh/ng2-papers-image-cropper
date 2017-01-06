@@ -30,6 +30,7 @@
     "url": "https://github.com/dschoeni/ng2-papers-image-cropper/issues"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.35",
     "rimraf": "2.5.x",
     "typescript": "^2.0.9"
   },

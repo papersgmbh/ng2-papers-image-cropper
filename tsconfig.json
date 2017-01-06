@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": false,
@@ -12,8 +11,7 @@
     "stripInternal": true,
     "moduleResolution": "node",
     "types": [
-      "hammerjs",
-      "node"
+      "hammerjs"
     ],
     "lib": ["es2015", "dom"],
     "outDir": "./lib/"
